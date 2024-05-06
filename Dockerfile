@@ -18,6 +18,6 @@ WORKDIR /app
 
 COPY --from=build /app/target/phonebook-0.0.1-SNAPSHOT.jar .
 
-EXPOSE 8082
+EXPOSE 8083
 
 CMD ["java","-jar","/app/phonebook-0.0.1-SNAPSHOT.jar"]
